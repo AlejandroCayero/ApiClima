@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>NombreCiudad</title>
+</head>
+
+<body>
+<h1>Error no acepta numeros</h1>
+<h2>Introduce el nombre de la ciudad</h2>
+<form th:action="@{/procesar}" method="post">
+    <input type="text" name="miValor" />
+    <button type="submit">Enviar</button>
+</form>
+
+</body>
+</html>
